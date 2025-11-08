@@ -45,7 +45,7 @@ jobs:
   environment:
     name: 'ContosoDeploy'
     resourceType: VirtualMachine
-    tags: 'M4NU_Helper' # VMs to deploy to
+    tags: 'M4NU_HELPER' # VMs to deploy to
   strategy:
     runOnce:
       deploy:
